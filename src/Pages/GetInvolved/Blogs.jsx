@@ -4,6 +4,9 @@ import { FaArrowRight } from "react-icons/fa";
 import BlogBg from "../../assets/blogbg.png"; 
 import { CheckCircle, Smile, Hourglass } from "lucide-react";
 import Footer from "../../Components/Footer/Footer";
+import office1 from "../../assets/office1.png";
+import office2 from "../../assets/office2.png";
+import office3 from "../../assets/office3.png";
 
 
 const Blogs = () => {
@@ -112,7 +115,7 @@ const Blogs = () => {
               </svg>
             </div>
             <p className="text-gray-700 font-medium">Jobs Pending</p>
-            <h2 className="text-5xl font-bold text-orange-500 mt-2">50k</h2>
+            <h2 className="text-5xl font-bold text-[#f47621] mt-2">50k</h2>
           </div>
 
         </div>
@@ -121,6 +124,71 @@ const Blogs = () => {
       </div>
     </section>
 
+
+
+
+{/* Companies Section */}
+  <section className="w-full bg-white ">
+      <div className="max-w-6xl mx-auto px-4">
+
+        {/* CARDS */}
+        <div className="space-y-10">
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col md:flex-row gap-8 bg-[#fafafa] rounded-xl px-8 py-10 min-h-[260px]"
+            >
+              {/* LEFT IMAGE */}
+              <div className="md:w-[300px] w-full flex-shrink-0">
+                <img
+                  src={item.image}
+                  alt="office"
+                  className="w-full h-[220px] object-cover rounded-lg"
+                />
+              </div>
+
+              {/* RIGHT CONTENT */}
+              <div className="flex-1 relative flex flex-col">
+                {/* TIME */}
+                <span className="absolute top-0 right-0 text-xs text-gray-400">
+                  {item.time}
+                </span>
+
+                <p className="text-sm text-gray-500 mb-1">
+                  We are Working with international
+                </p>
+
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                  Companies
+                </h3>
+
+                <p className="text-sm text-gray-500 leading-relaxed max-w-2xl">
+                  copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                  air plant cold-pressed tacos poke beard tote bag. heirloom echo
+                  park milkshk tote bag selvage hot chicken authentic tumeric
+                  truffaut hexagon try-hard chambray.
+                </p>
+
+                {/* PUSH BUTTON TO BOTTOM */}
+                <div className="mt-auto text-right pt-6">
+                  <button className="text-sm text-[#f47621] font-medium inline-flex items-center gap-1 hover:gap-2 transition-all">
+                    Learn more <span className="text-lg">→</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* SEE MORE BUTTON */}
+        <div className="flex justify-center mt-10 mb-20">
+          <button className="px-7 py-2.5 border border-[#f47621]  text-[#f47621] rounded-full text-sm font-medium hover:bg-orange-500 hover:text-white transition">
+            See more ↓
+          </button>
+        </div>
+
+      </div>
+    </section>
     <Footer/>
     </>
   );
