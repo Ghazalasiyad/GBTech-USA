@@ -7,8 +7,9 @@ import LearnIcon from "../../assets/scholarship.png";
 import TeamIcon from "../../assets/workers.png";
 import LunchIcon from "../../assets/lunch.png";
 import AwardIcon from "../../assets/award.png";
-import JobOpenings from '../../Components/JobOpenings/JobOpenings';
+import JobOpenings from '../../Components/JobOpenings/JobSection';
 import Footer from "../../Components/Footer/Footer";
+import JobSection from '../../Components/JobOpenings/JobSection';
 
 
 const GetInvolved = () => {
@@ -147,6 +148,7 @@ const GetInvolved = () => {
 
       {/* Job openings */}
       {/* <JobOpenings/> */}
+      <JobSection/>
       <Footer/>
     </>
   )

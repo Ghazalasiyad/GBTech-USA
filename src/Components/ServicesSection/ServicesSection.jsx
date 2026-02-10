@@ -1,4 +1,15 @@
 import { IoArrowForward } from "react-icons/io5"
+import digital from "../../assets/digital-marketing.png";
+import uiux from "../../assets/ui-ux.png";
+import webdev from "../../assets/web-dev.png";
+import medical from "../../assets/medical-billing.png";
+import medicaldoc from "../../assets/medical-doc.png";
+import graphics from "../../assets/graphic-design.png";
+
+
+
+
+
 import React from "react";
 
 export default function ServicesSection() {
@@ -26,8 +37,10 @@ export default function ServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Digital Marketing */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/digital-marketing-icon.png" alt="Digital Marketing" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white   rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={digital}
+               alt="Digital Marketing" 
+               className="w-20 h-20 object-contain group-hover:bg-white]" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               Digital Marketing
@@ -42,8 +55,8 @@ export default function ServicesSection() {
 
           {/* UI/UX Designing */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/ui-ux-design-icon.jpg" alt="UI/UX Designing" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white   group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={uiux} alt="UI/UX Designing" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               UI/UX Designing
@@ -58,8 +71,8 @@ export default function ServicesSection() {
 
           {/* Web Development */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/web-development-coding-icon.jpg" alt="Web Development" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white  group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={webdev} alt="Web Development" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               Web Development
@@ -74,8 +87,8 @@ export default function ServicesSection() {
 
           {/* Medical Billing */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/medical-billing-document-icon.jpg" alt="Medical Billing" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white  group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={medical} alt="Medical Billing" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               Medical Billing
@@ -90,8 +103,8 @@ export default function ServicesSection() {
 
           {/* Medical Documentation */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/medical-documentation-health-records-icon.jpg" alt="Medical Documentation" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white  group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={medicaldoc} alt="Medical Documentation" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               Medical Documentation
@@ -106,8 +119,8 @@ export default function ServicesSection() {
 
           {/* Graphic Designing */}
           <div className="group bg-white hover:bg-orange-500 rounded-3xl p-8 relative transition-all duration-300 shadow-sm cursor-pointer">
-            <div className="w-12 h-12 border-2 border-orange-500 group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
-              <img src="/graphic-design-creative-icon.jpg" alt="Graphic Designing" className="w-6 h-6 object-contain" />
+            <div className="w-12 h-12 group-hover:bg-white  group-hover:border-white rounded-full flex items-center justify-center mb-6 transition-all duration-300 overflow-hidden">
+              <img src={graphics}alt="Graphic Designing" className="w-20 h-20 object-contain" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-white transition-colors duration-300">
               Graphic Designing

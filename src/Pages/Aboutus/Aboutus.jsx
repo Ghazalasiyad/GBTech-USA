@@ -6,6 +6,7 @@ import Footer from "../../Components/Footer/Footer";
 import { FaArrowRight, FaHandshake, FaChartLine } from "react-icons/fa";
 import MissionTimeline from "../../Components/MissionTimeline/MissionTimeline.jsx";
 import FaqSection from "../../Components/FaqSection/FaqSection.jsx";
+import StatsCounter from "../../Components/StatsCounter/StatsCounter.jsx";
 
 const AboutUs = () => {
   return (
@@ -86,9 +87,12 @@ const AboutUs = () => {
             heirloom echo park mlkshk tote bag selvage hot chicken
             authentic turmeric truffaut hexagon try-hard chambray.
           </p>
+          <div className="ml-[30]">
+          <StatsCounter/>
+          </div>
 
           {/* Stats */}
-          <div className="flex flex-wrap gap-10 mb-10">
+          {/* <div className="flex flex-wrap gap-10 mb-10">
             <div>
               <p className="text-sm text-gray-500 mb-1">Completed Projects</p>
               <h3 className="text-4xl font-bold text-[#f57c20]">500+</h3>
@@ -103,7 +107,7 @@ const AboutUs = () => {
               <p className="text-sm text-gray-500 mb-1">Satisfied Clients</p>
               <h3 className="text-4xl font-bold text-[#f57c20]">800+</h3>
             </div>
-          </div>
+          </div> */}
 
           {/* Button */}
           <button className="flex items-center gap-3 rounded-full bg-[#f57c20] px-6 py-3 text-white font-medium hover:bg-orange-600 transition">
@@ -123,3 +127,13 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+ 
+
+
+
+
+
+
+
+
+
