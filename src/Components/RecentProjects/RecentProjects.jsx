@@ -5,7 +5,7 @@ const tabs = [
   "UI/UX",
   "Graphic Design",
   "Web Development",
-  "Medical Billing",      
+  "Medical Billing",
   "Medical Documentation",
   "Digital Marketing",
 ];
@@ -54,7 +54,6 @@ const RecentProjects = () => {
 
   return (
     <section className="w-full bg-[#f8f8f8]">
-      {/* INNER CONTAINER */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto">
@@ -90,20 +89,20 @@ const RecentProjects = () => {
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-12 items-center mt-16">
           {/* Left Content */}
-          <div className="md:pr-12 ml-20">
+          <div className="md:pr-12 md:ml-0 ml-0 text-center md:text-left">
             <h3 className="text-4xl md:text-3xl font-semibold text-gray-900">
               {projects[activeTab].title}
             </h3>
 
-            <p className="mt-4 text-[#363636] text-lg font-normal leading-relaxed max-w-xl">
+            <p className="mt-4 text-[#363636] text-lg font-normal leading-relaxed max-w-xl mx-auto md:mx-0">
               {projects[activeTab].description}
             </p>
 
-            <button className="mt-8 inline-flex items-center gap-2 bg-[#f47621] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-white hover:text-orange-500 transition border border-orange-500">
+            <button className="mt-8 inline-flex items-center gap-2 bg-[#f47621] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-white hover:text-orange-500 transition border border-orange-500 mx-auto md:mx-0">
               Explore More about
-             <span className="bg-white text-[#f47621] h-8 w-8 flex items-center justify-center rounded-full">
-            ↗
-          </span>
+              <span className="bg-white text-[#f47621] h-8 w-8 flex items-center justify-center rounded-full">
+                ↗
+              </span>
             </button>
           </div>
 

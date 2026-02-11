@@ -48,77 +48,66 @@ const AboutUs = () => {
     </section>
 
 
+{/* second section */}
 
+    <section className="w-full bg-white py-16 sm:py-20">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    
+    {/* LEFT IMAGE */}
+    <div className="relative flex justify-center">
+      {/* Orange shape */}
+      <div className="absolute -bottom-6 -left-6 w-72 h-72 sm:w-[420px] sm:h-[420px] bg-[#f57c20] rounded-[60%_40%_55%_45%] -z-10"></div>
 
-    <section className="w-full bg-white py-20">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        
-        {/* LEFT IMAGE */}
-        <div className="relative flex justify-center">
-          {/* Orange shape */}
-          <div className="absolute -bottom-6 -left-6 w-[420px] h-[420px] bg-[#f57c20] rounded-[60%_40%_55%_45%] -z-10"></div>
+      {/* Image */}
+      <img
+        src={aboutImg}
+        alt="About"
+        className="object-cover w-full max-w-xs sm:max-w-md lg:max-w-none"
+      />
+    </div>
 
-          {/* Image */}
-          <img
-            src={aboutImg}
-            alt="About"
-            className=" object-cover"
-          />
-        </div>
+    {/* RIGHT CONTENT */}
+    <div className="text-center lg:text-left">
+      {/* Small badge */}
+      <span className="inline-block mb-4 font-normal rounded-full bg-[#363636] px-4 py-1 text-lg text-white">
+        about our company
+      </span>
 
-        {/* RIGHT CONTENT */}
-        <div>
-          {/* Small badge */}
-          <span className="inline-block mb-4 font-normal  rounded-full bg-[#363636] px-4 py-1 text-lg text-[#ffffff]">
-            about our company
-          </span>
+      {/* Heading */}
+      <h2 className="text-3xl sm:text-4xl font-semibold leading-snug text-[#363636] mb-4">
+        Your Ultimate <span className="text-[#f57c20]">Solution</span>
+        <br />
+        For Your <span className="text-[#f57c20]">Product</span>
+      </h2>
 
-          {/* Heading */}
-          <h2 className="text-4xl font-semibold leading-tight text-[#363636] mb-4">
-            Your Ultimate <span className="text-[#f57c20]">Solution</span>
-            <br />
-            For Your <span className="text-[#f57c20]">Product</span>
-          </h2>
+      {/* Description */}
+      <p className="text-[#363636] max-w-xl mx-auto lg:mx-0 text-base sm:text-lg font-normal mb-8">
+        copper mug try-hard pitchfork pour-over freegan heirloom
+        neutra air plant cold-pressed tacos poke beard tote bag.
+        heirloom echo park mlkshk tote bag selvage hot chicken
+        authentic turmeric truffaut hexagon try-hard chambray.
+      </p>
 
-          {/* Description */}
-          <p className="text-[#363636] max-w-xl text-lg font-normal mb-8">
-            copper mug try-hard pitchfork pour-over freegan heirloom
-            neutra air plant cold-pressed tacos poke beard tote bag.
-            heirloom echo park mlkshk tote bag selvage hot chicken
-            authentic turmeric truffaut hexagon try-hard chambray.
-          </p>
-          <div className="ml-[30]">
-          <StatsCounter/>
-          </div>
-
-          {/* Stats */}
-          {/* <div className="flex flex-wrap gap-10 mb-10">
-            <div>
-              <p className="text-sm text-gray-500 mb-1">Completed Projects</p>
-              <h3 className="text-4xl font-bold text-[#f57c20]">500+</h3>
-            </div>
-
-            <div>
-              <p className="text-sm text-gray-500 mb-1">Active Clients</p>
-              <h3 className="text-4xl font-bold text-[#f57c20]">10K+</h3>
-            </div>
-
-            <div>
-              <p className="text-sm text-gray-500 mb-1">Satisfied Clients</p>
-              <h3 className="text-4xl font-bold text-[#f57c20]">800+</h3>
-            </div>
-          </div> */}
-
-          {/* Button */}
-          <button className="flex items-center gap-3 rounded-full bg-[#f57c20] px-6 py-3 text-white font-medium hover:bg-orange-600 transition">
-            more details
-         <span className="bg-white text-[#f47621] p-2 rounded-full">
-                          <FaArrowRight size={12} />
-                        </span>
-          </button>
-        </div>
+      {/* Stats */}
+      <div className="mb-8">
+        <StatsCounter />
       </div>
-    </section>
+
+      {/* Button */}
+      {/* Button */}
+<div className="flex justify-center">
+  <button className="flex items-center gap-3 rounded-full bg-[#f57c20] px-6 py-3 text-white font-medium hover:bg-orange-600 transition">
+    more details
+    <span className="bg-white text-[#f47621] p-2 rounded-full">
+      <FaArrowRight size={12} />
+    </span>
+  </button>
+</div>
+
+    </div>
+  </div>
+</section>
+
     <MissionTimeline/>
     <FaqSection/>
     <Footer/>

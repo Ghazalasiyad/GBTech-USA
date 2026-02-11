@@ -20,11 +20,11 @@ const CounterItem = ({ label, value, suffix = "" }) => {
   }, [value]);
 
   return (
-    <div className="flex flex-col items-center gap-2">
-      <span className="text-sm text-gray-700 font-medium">
+    <div className="flex flex-col items-center gap-2 w-32 sm:w-36">
+      <span className="text-sm sm:text-base text-gray-700 font-medium text-center">
         {label}
       </span>
-      <span className="text-5xl font-bold text-orange-500">
+      <span className="text-3xl sm:text-5xl font-bold text-orange-500 text-center">
         {count}
         {suffix}
       </span>
@@ -34,7 +34,7 @@ const CounterItem = ({ label, value, suffix = "" }) => {
 
 const StatsCounter = () => {
   return (
-    <div className="flex justify-center gap-16 py-12">
+    <div className="flex flex-wrap justify-center gap-6 sm:gap-12">
       <CounterItem label="Completed Projects" value={500} suffix="+" />
       <CounterItem label="Active Clients" value={10} suffix="k+" />
       <CounterItem label="Satisfied Clients" value={800} suffix="+" />
@@ -43,3 +43,4 @@ const StatsCounter = () => {
 };
 
 export default StatsCounter;
+

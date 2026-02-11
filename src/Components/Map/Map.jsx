@@ -4,31 +4,35 @@ const Map = () => {
   return (
     <section className="w-full">
       {/* TOP BAR */}
-      <div className="bg-[#f57c20] px-6 py-4 h-[14vh] flex items-center justify-between">
-        <div className="flex items-center gap-3 ml-20">
-          <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="#f57c20"
-              viewBox="0 0 24 24"
-              className="w-5 h-5"
-            >
-              <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z" />
-            </svg>
-          </div>
+     
+<div className="bg-[#f57c20] px-4 md:px-6 py-2 md:py-4 h-[12vh] md:h-[14vh] flex items-center justify-between">
+  {/* Left Heading */}
+  <div className="flex items-center gap-2 md:gap-3 pl-2 md:pl-20">
+    <div className="w-7 h-7 md:w-9 md:h-9 rounded-full bg-white flex items-center justify-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="#f57c20"
+        viewBox="0 0 24 24"
+        className="w-4 h-4 md:w-5 md:h-5"
+      >
+        <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z" />
+      </svg>
+    </div>
 
-          <h2 className="text-white  md:text-2xl text-4xl font-semibold ">
-            Find Us Here
-          </h2>
-        </div>
+    <h2 className="text-white text-xl md:text-2xl lg:text-4xl font-semibold">
+      Find Us Here
+    </h2>
+  </div>
 
-        <button className="bg-white text-[#f57c20] px-8 py-3 rounded-md mr-20 text-base font-medium hover:bg-gray-100 transition">
-          Leave Message
-        </button>
-      </div>
+  {/* Right Button */}
+  <button className="bg-white text-[#f57c20] px-4 md:px-8 py-2 md:py-3 rounded-md text-sm md:text-base font-medium hover:bg-gray-100 transition">
+    Leave Message
+  </button>
+</div>
+
 
       {/* MAP */}
-      <div className="w-full h-[450px]">
+      <div className="w-full h-[450px] md:h-[450px]">
         <iframe
           title="Houston Texas Location"
           src="https://www.google.com/maps?q=Houston,Texas,United%20States&output=embed"

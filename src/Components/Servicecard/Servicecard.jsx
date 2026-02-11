@@ -43,26 +43,31 @@ const services = [
 
 const Servicecard = () => {
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto">
+   <section className="py-16 px-5 sm:px-6 lg:px-4 max-w-7xl mx-auto">
+
       {/* Heading */}
-      <div className="mb-12">
-        <span className="inline-block bg-[#363636] text-white text-lg font-normal px-4 py-1 rounded-full mb-3">
-          Our Services
-        </span>
-        <h2 className="text-4xl md:text-4xl font-semibold leading-snug">
-          GBtechive <span className="text-[#f47621]">Provides Exclusive</span>
-          <br />
-          Services For Your Business
-        </h2>
-      </div>
+      <div className="mb-10 text-left sm:text-left">
+  <span className="inline-block bg-[#363636] text-white text-sm sm:text-base lg:text-lg font-normal px-3 sm:px-4 py-1 rounded-full mb-3">
+    Our Services
+  </span>
+
+  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight sm:leading-snug">
+    GBtechive{" "}
+    <span className="text-[#f47621]">Provides Exclusive</span>
+    <span className="hidden sm:inline"><br /></span>
+    Services For Your Business
+  </h2>
+</div>
+
 
       {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service, index) => (
           <div
-            key={index}
-            className="bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition"
-          >
+  key={index}
+  className="bg-white rounded-2xl p-6 sm:p-8 text-center shadow-sm hover:shadow-md transition"
+>
+
             {/* Icon */}
             <div className="w-14 h-14 mx-auto mb-4 rounded-full border-2 border-orange-500 flex items-center justify-center">
               <img

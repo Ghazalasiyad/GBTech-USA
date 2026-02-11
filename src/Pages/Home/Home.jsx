@@ -16,6 +16,7 @@ import RecentProjects from "../../Components/RecentProjects/RecentProjects";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import Map from "../../Components/Map/Map";
 import Footer from "../../Components/Footer/Footer";
+import FactsSection from "../../Components/FactsSection/FactsSection.jsx";
 // import Bulb from "../../assets/bulb.png";
 // import Coffee from "../../assets/coffee.png";
 // import Logo from "../../assets/logo.png";
@@ -122,7 +123,8 @@ const Home = () => {
 
 {/* // Second Section */}
  <section className="bg-white py-20">
-      <div className="max-w-7xl ml-20 px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto lg:ml-20 px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
+
         
         {/* Left Image */}
         <div className="flex justify-center">
@@ -198,14 +200,14 @@ const Home = () => {
 
 
 
-    {/* Why Choose Us Section */}
-
+ {/* Why Choose Us Section */}
 <section className="w-full bg-[#f8f8f8] py-12">
   <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
       {/* LEFT CONTENT */}
-      <div className="-mt-50">
+      <div className="mt-10 lg:-mt-50 px-4 lg:px-0">
+
         <span className="inline-block mb-4 rounded-full bg-[#363636] px-4 py-1 text-lg font-normal text-white">
           why choose us
         </span>
@@ -227,7 +229,7 @@ const Home = () => {
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg">
           <div className="flex items-center gap-3 rounded-full bg-[white] px-4 py-4">
             <img src={icon1} className="h-5 w-5" />
-            <span className="text-sm text-[#363636]  font-medium">affordable excellence</span>
+            <span className="text-sm text-[#363636] font-medium">affordable excellence</span>
           </div>
 
           <div className="flex items-center gap-3 rounded-full bg-[white] px-4 py-4">
@@ -239,14 +241,14 @@ const Home = () => {
 
           <div className="flex items-center gap-3 rounded-full bg-[white] px-4 py-4">
             <img src={icon3} className="h-5 w-5" />
-            <span className="text-sm text-[#363636]  font-medium">
+            <span className="text-sm text-[#363636] font-medium">
               meet with our expert team
             </span>
           </div>
 
-          <div className="flex items-center gap-3 rounded-full bg-[white]  px-4 py-4">
+          <div className="flex items-center gap-3 rounded-full bg-[white] px-4 py-4">
             <img src={icon4} className="h-5 w-5" />
-            <span className="text-sm text-[#363636]  font-medium">
+            <span className="text-sm text-[#363636] font-medium">
               customer centric approach
             </span>
           </div>
@@ -254,8 +256,8 @@ const Home = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="flex flex-col items-end pt-10">
-        <div className="w-full  h-100 max-w-2xl aspect-video rounded-2xl overflow-hidden bg-gray-300">
+      <div className="flex flex-col items-end pt-10 px-4 lg:px-0">
+        <div className="w-full h-100 max-w-2xl aspect-video rounded-2xl overflow-hidden bg-gray-300">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -265,7 +267,7 @@ const Home = () => {
           ></iframe>
         </div>
 
-        <button className="mt-30 flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition">
+        <button className="mt-10 lg:mt-30 flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition">
           Explore More about
           <span className="bg-white text-[#f47621] h-8 w-8 flex items-center justify-center rounded-full">
             ↗
@@ -279,40 +281,10 @@ const Home = () => {
 
 
 
+<FactsSection/>
 
-{/* Facts Section */}
-<section className="w-full bg-white py-16 flex flex-col lg:flex-row items-center gap-10 relative">
+{/*  */}
 
-  {/* LEFT IMAGE - flush to left */}
-  <div className="flex-shrink-0">
-    <img src={LeftImage} alt="Left Decorative" className="w-64" />
-  </div>
-
-  {/* CENTER CONTENT - centered text */}
-  <div className="flex-1 text-center lg:text-center max-w-4xl px-4">
-    <h2 className="text-4xl lg:text-4xl font-semibold
- text-gray-900 mb-6">
-      Some Awesome Facts <br /> About <span className="text-[#f47621]">GB Techive</span> Company
-    </h2>
-
-    <div className="flex flex-col sm:flex-row sm:gap-16 gap-6 justify-center mt-8">
-      <div>
-        <p className="text-gray-500">Completed Projects</p>
-        <p className="text-4xl font-bold text-[#f47621] mt-1">500+</p>
-      </div>
-      <div>
-        <p className="text-gray-500">Satisfied Clients</p>
-        <p className="text-4xl font-bold text-[#f47621] mt-1">800+</p>
-      </div>
-    </div>
-  </div>
-
-  {/* RIGHT IMAGE - add space from right */}
-  <div className="flex-shrink-0 mr-4 lg:mr-10">
-    <img src={DevicesImage} alt="Laptop and Phone" className="w-100 lg:w-96" />
-  </div>
-
-</section>
 <RecentProjects/>
 <Testimonials/>
 <Map/>
