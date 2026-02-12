@@ -5,6 +5,7 @@ import webdev from "../../assets/web-dev.png";
 import medical from "../../assets/medical-billing.png";
 import medicaldoc from "../../assets/medical-doc.png";
 import graphics from "../../assets/graphic-design.png";
+import { IoArrowUp } from "react-icons/io5";
 
 
 
@@ -49,8 +50,9 @@ export default function ServicesSection() {
               Our Digital Marketing Solutions Boost Your Brand Visibility Across Multiple Platforms, Driving Enga...
             </p>
             <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
 
           {/* UI/UX Designing */}
@@ -65,8 +67,9 @@ export default function ServicesSection() {
               Our Designers Craft Intuitive, Visually Appealing Interfaces That Enhance User Experience, Ensuring...
             </p>
             <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
 
           {/* Web Development */}
@@ -81,8 +84,9 @@ export default function ServicesSection() {
               We Build Custom Websites Tailored To Your Business Needs, Ensuring A Unique Online Experience, Our S...
             </p>
             <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
 
           {/* Medical Billing */}
@@ -97,8 +101,9 @@ export default function ServicesSection() {
               Our Medical Billing Experts Handle Patient Check-In/Out, Claims, Payments, And Denials, Ensuring Ac...
             </p>
             <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
 
           {/* Medical Documentation */}
@@ -112,9 +117,10 @@ export default function ServicesSection() {
             <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed mb-8 transition-colors duration-300">
               We Offer High-Quality Medical Documentation Services To Streamline Your Practice, Ensuring Accuracy...
             </p>
-            <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+           <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
 
           {/* Graphic Designing */}
@@ -129,8 +135,9 @@ export default function ServicesSection() {
               Our Digital Marketing Solutions Boost Your Brand Visibility Across Multiple Platforms, Driving Enga...
             </p>
             <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
-              <IoArrowForward className="w-5 h-5 text-white group-hover:text-orange-500" />
-            </button>
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
+
           </div>
         </div>
       </div>

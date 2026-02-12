@@ -1,6 +1,7 @@
 import React from "react";
 import lineVector from "../../assets/vector.png";
 import { FaArrowRight, FaHandshake, FaChartLine } from "react-icons/fa";
+import Button from "../Button/Button";
 
 const MissionTimeline = () => {
   return (
@@ -25,12 +26,7 @@ const MissionTimeline = () => {
             truffaut hexagon try-hard chambray.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-[#f57c20] text-white px-7 py-4 rounded-full">
-            Get started
-             <span className="bg-white text-[#f47621] p-2 rounded-full">
-                                     <FaArrowRight size={12} />
-                                   </span>
-          </button>
+          <Button text="Get started"/>
         </div>
 
         {/* RIGHT TIMELINE */}

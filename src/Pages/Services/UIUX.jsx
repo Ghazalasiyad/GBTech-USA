@@ -4,6 +4,7 @@ import ProjectImg from "../../assets/projectui.png";
 import LandingImg from "../../assets/landing-ui.png";
 import MobileImg from "../../assets/mobile-ui.png";
 import WebsiteImg from "../../assets/website-ui.png";
+import { IoArrowUp } from "react-icons/io5";
 
 // ICON IMAGES
 import FigmaIcon from "../../assets/figma.png";
@@ -22,6 +23,7 @@ import p3 from "../../assets/p3.png";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import TestimonialSlider from "../../Components/TestimonialSlider/TestimonialSlider";
 import Footer from "../../Components/Footer/Footer";
+import Button from "../../Components/Button/Button";
 
 const UIUX = () => {
   const features = [
@@ -114,12 +116,7 @@ const projects = [
                 truffaut hexagon try-hard chambray.
               </p>
 
-              <button className="group inline-flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-[#e56f18] transition">
-                more details
-                <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#f47621] group-hover:translate-x-1 transition">
-                  →
-                </span>
-              </button>
+             <Button text="more details"/>
             </div>
           </div>
         </div>
@@ -166,13 +163,9 @@ const projects = [
 
               {/* ARROW IMAGE */}
               {/* Arrow (CSS only) */}
-<div className="absolute bottom-6 right-6">
-  <div className="w-12 h-12 rounded-full bg-[#f57c20] flex items-center justify-center group-hover:bg-white transition">
-    <span className="text-white group-hover:text-[#f57c20] text-xl font-semibold transition">
-      →
-    </span>
-  </div>
-</div>
+         <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
+  <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
+</button>
 
             </div>
           ))}
@@ -266,8 +259,8 @@ Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-p
           </div>
 
           {/* Arrow Button */}
-          <button className="absolute bottom-6 right-6 w-11 h-11 flex items-center justify-center rounded-full bg-orange-500 text-white hover:bg-orange-600 transition">
-            ↗
+                   <button className="absolute bottom-6 right-6 w-10 h-10 bg-orange-500 group-hover:bg-white rounded-full flex items-center justify-center transition-all duration-300">
+            <IoArrowUp className="w-5 h-5 text-white group-hover:text-orange-500 rotate-45" />
           </button>
         </div>
       ))}

@@ -2,6 +2,7 @@ import React from "react";
 import AboutImg from "../../assets/aboutbg.png";
 import aboutImg from "../../assets/about1.png"; 
 import Footer from "../../Components/Footer/Footer";
+import Button from "../../Components/Button/Button.jsx";
 
 import { FaArrowRight, FaHandshake, FaChartLine } from "react-icons/fa";
 import MissionTimeline from "../../Components/MissionTimeline/MissionTimeline.jsx";
@@ -36,12 +37,7 @@ const AboutUs = () => {
             truffaut hexagon try-hard chambray.
           </p>
 
-          <button className="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-orange-600 transition">
-            more details
-           <span className="bg-white text-[#f47621] p-2 rounded-full">
-                          <FaArrowRight size={12} />
-                        </span>
-          </button>
+         <Button text="more details"/>
            
         </div>
       </div>
@@ -95,14 +91,8 @@ const AboutUs = () => {
 
       {/* Button */}
       {/* Button */}
-<div className="flex justify-center">
-  <button className="flex items-center gap-3 rounded-full bg-[#f57c20] px-6 py-3 text-white font-medium hover:bg-orange-600 transition">
-    more details
-    <span className="bg-white text-[#f47621] p-2 rounded-full">
-      <FaArrowRight size={12} />
-    </span>
-  </button>
-</div>
+      <Button text="more details"/>
+
 
     </div>
   </div>

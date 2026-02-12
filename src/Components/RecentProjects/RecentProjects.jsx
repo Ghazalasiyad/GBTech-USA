@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectImg from "../../assets/project.png";
+import Button from "../../Components/Button/Button.jsx";
 
 const tabs = [
   "UI/UX",
@@ -97,13 +98,17 @@ const RecentProjects = () => {
             <p className="mt-4 text-[#363636] text-lg font-normal leading-relaxed max-w-xl mx-auto md:mx-0">
               {projects[activeTab].description}
             </p>
+            <div className="mt-14">
+            <Button text="Explore More about"/>
 
-            <button className="mt-8 inline-flex items-center gap-2 bg-[#f47621] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-white hover:text-orange-500 transition border border-orange-500 mx-auto md:mx-0">
+            </div>
+
+            {/* <button className="mt-8 inline-flex items-center gap-2 bg-[#f47621] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-white hover:text-orange-500 transition border border-orange-500 mx-auto md:mx-0">
               Explore More about
               <span className="bg-white text-[#f47621] h-8 w-8 flex items-center justify-center rounded-full">
                 ↗
               </span>
-            </button>
+            </button> */}
           </div>
 
           {/* Right Image */}

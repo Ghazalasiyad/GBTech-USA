@@ -7,6 +7,7 @@ import Footer from "../../Components/Footer/Footer";
 import office1 from "../../assets/office1.png";
 import office2 from "../../assets/office2.png";
 import office3 from "../../assets/office3.png";
+import Button from "../../Components/Button/Button";
 
 
 const Blogs = () => {
@@ -51,12 +52,7 @@ const Blogs = () => {
             truffaut hexagon try-hard chambray.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-orange-500 text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-orange-600 transition">
-            more details
-            <span className="bg-white text-[#f47621] p-2 rounded-full">
-              <FaArrowRight size={12} />
-            </span>
-          </button>
+         <Button text="more details"/>
         </div>
       </div>
     </section>
@@ -171,21 +167,48 @@ const Blogs = () => {
 
                 {/* PUSH BUTTON TO BOTTOM */}
                 <div className="mt-auto text-right pt-6">
-                  <button className="text-sm text-[#f47621] font-medium inline-flex items-center gap-1 hover:gap-2 transition-all">
-                    Learn more <span className="text-lg">→</span>
-                  </button>
+                  <button className="group text-sm text-[#f47621] font-medium inline-flex items-center gap-2">
+  Learn more
+  
+  <svg
+    className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#f47621"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M5 12h14"></path>
+    <path d="M13 5l7 7-7 7"></path>
+  </svg>
+</button>
+
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* SEE MORE BUTTON */}
-        <div className="flex justify-center mt-10 mb-20">
-          <button className="px-7 py-2.5 border border-[#f47621]  text-[#f47621] rounded-full text-sm font-medium hover:bg-orange-500 hover:text-white transition">
-            See more ↓
-          </button>
-        </div>
+        
+       {/* SEE MORE BUTTON */}
+<div className="flex justify-center mt-10 mb-20">
+  <button className="flex items-center gap-3 px-10 py-4 border-2 border-[#f47621] text-[#f47621] rounded-full text-lg font-semibold hover:bg-[#f47621] hover:text-white transition-all duration-300">
+    See more
+
+    {/* Chevron Down Icon */}
+    <svg
+      className="w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 9l6 6 6-6" />
+    </svg>
+  </button>
+</div>
+
 
       </div>
     </section>

@@ -4,6 +4,7 @@ import { FaArrowRight, FaHandshake, FaChartLine } from "react-icons/fa";
 import ServicesSection from "../../Components/ServicesSection/ServicesSection";
 import WorkflowImg from "../../assets/workflow.png"; // replace with your image
 import Footer from "../../Components/Footer/Footer";
+import Button from "../../Components/Button/Button.jsx";
 
 
 const Services = () => {
@@ -29,7 +30,7 @@ const Services = () => {
       style={{ backgroundImage: `url(${ServiceBg})` }}
     >
        {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/10"></div>
       <div className="max-w-7xl px-8">
         <div className="max-w-xl">
           <h2 className="text-[#f47621] text-4xl font-bold mb-4">
@@ -37,18 +38,10 @@ const Services = () => {
           </h2>
 
           <p className="text-[#ffffff] leading-relaxed font-normal text-lg mb-8">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            (Digital Innovation That Moves Your Business Forward, Transforming Ideas Into Impactful Digital Experiences)
           </p>
 
-          <button className="group flex items-center gap-3 bg-[#f47621] hover:bg-orange-600 text-white px-6 py-3 rounded-full transition">
-            more details
-            <span className="bg-white text-[#f47621] p-2 rounded-full">
-                                     <FaArrowRight size={12} />
-                                   </span>
-          </button>
+          <Button text="more details"/>
         </div>
       </div>
     </section>
@@ -104,10 +97,7 @@ const Services = () => {
             Payments, And Denials, Ensuring Acc...
           </p>
 
-          <button className="flex items-center gap-3 bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
-            Contact Us
-            {/* <img src={ArrowImg} alt="arrow" className="w-4 h-4" /> */}
-          </button>
+          <Button text="contact us"/>
         </div>
 
       </div>

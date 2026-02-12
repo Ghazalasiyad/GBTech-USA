@@ -1,6 +1,7 @@
 import React from "react";
 import faqImage from "../../assets/about2.png"; 
 import { FaArrowRight } from "react-icons/fa";
+import Button from "../Button/Button";
 
 const faqs = [
   { question: "what is elementor?", answer: "Elementor is a WordPress page builder plugin." },
@@ -66,14 +67,7 @@ const FaqSection = () => {
           </div>
 
           {/* BUTTON */}
-          <div className="flex justify-center lg:justify-start">
-            <button className="bg-[#f47621] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-orange-600 transition text-sm sm:text-base">
-              more details
-              <span className="bg-white text-[#f47621] p-2 rounded-full">
-                <FaArrowRight size={12} />
-              </span>
-            </button>
-          </div>
+        <Button text="more details"/>
         </div>
 
         {/* RIGHT IMAGE */}

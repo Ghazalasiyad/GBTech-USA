@@ -4,6 +4,7 @@ import ServiceImg from "../../assets/about1.png";
 import Service from "../../assets/about2.png";
 import Footer from "../../Components/Footer/Footer";
 import ProjectSlider from "../../Components/ProjectSlider/ProjectSlider";
+import Button from "../../Components/Button/Button";
 
 
 const Portfolio = () => {
@@ -34,13 +35,7 @@ const Portfolio = () => {
             truffaut hexagon try-hard chambray.
           </p>
 
-          <button className="group flex items-center gap-3 bg-[#f47621]  text-white px-6 py-3 rounded-full transition-all">
-            <span className="text-sm font-medium">more details</span>
-
-            <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#f47621] transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </button>
+         <Button text="more details"/>
         </div>
       </div>
     </section>
@@ -66,12 +61,7 @@ const Portfolio = () => {
             hexagon try-hard chambray.
           </p>
 
-          <button className="group flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full transition-all">
-            <span className="text-sm font-medium">more details</span>
-            <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#f47621] transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </button>
+         <Button text="get in touch"/>
         </div>
 
         {/* Right Image */}
@@ -124,12 +114,7 @@ const Portfolio = () => {
             hexagon try-hard chambray.
           </p>
 
-          <button className="group flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full transition-all">
-            <span className="text-sm font-medium">more details</span>
-            <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-orange-500 transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </button>
+        <Button text="more details"/>
         </div>
 
       </div>
@@ -155,12 +140,7 @@ const Portfolio = () => {
             hexagon try-hard chambray.
           </p>
 
-          <button className="group flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full transition-all">
-            <span className="text-sm font-medium">more details</span>
-            <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#f47621] transition-transform group-hover:translate-x-1">
-              ↗
-            </span>
-          </button>
+          <Button text="more details"/>
         </div>
 
         {/* Right Image */}

@@ -53,7 +53,7 @@ const Jobs = () => {
             </div>
           </div>
 
-          <button className="mt-8 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md text-sm font-medium transition">
+          <button className="mt-8 bg-[#f47621]  text-white px-20 py-3 rounded-md text-sm font-medium transition">
             Submit CV
           </button>
         </div>

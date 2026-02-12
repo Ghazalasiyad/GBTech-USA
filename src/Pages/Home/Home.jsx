@@ -17,6 +17,7 @@ import Testimonials from "../../Components/Testimonials/Testimonials";
 import Map from "../../Components/Map/Map";
 import Footer from "../../Components/Footer/Footer";
 import FactsSection from "../../Components/FactsSection/FactsSection.jsx";
+import Button from "../../Components/Button/Button.jsx";
 // import Bulb from "../../assets/bulb.png";
 // import Coffee from "../../assets/coffee.png";
 // import Logo from "../../assets/logo.png";
@@ -46,12 +47,8 @@ const Home = () => {
 
           {/* BUTTONS */}
           <div className="mt-8 flex flex-wrap gap-4">
-            <button className="flex items-center gap-3 bg-[#f47621] hover:bg-[#f47621] text-white font-medium px-6 py-3 rounded-full transition">
-              Get in Touch
-              <span className="bg-white text-[#f47621] p-2 rounded-full">
-                <FaArrowRight size={12} />
-              </span>
-            </button>
+           <Button text="Get in Touch"/>
+            
 
             <button className="flex items-center gap-3 border border-orange-500 text-orange-500 hover:bg-orange-50 font-medium px-6 py-3 rounded-full transition">
               Explore our Service
@@ -64,13 +61,7 @@ const Home = () => {
 
         {/* RIGHT IMAGE */}
         <div className="relative flex justify-center items-center">
-          {/* Circle background */}
-          {/* Round background image */}
-          {/* <img
-            src={CircleBg}
-            alt="Circle Background"
-            className="absolute w-[420px] h-[420px] z-0"
-          /> */}
+         
 
           {/* Hero image (Girl holding laptop) */}
           <img
@@ -79,42 +70,7 @@ const Home = () => {
             
           />
 
-          {/* Logo on laptop screen */}
-          {/* <img
-            src={Logo}
-            alt="Logo"
-            className="absolute top-[60%] left-[52%] transform -translate-x-1/2 -translate-y-[35%] w-24 z-20"
-          /> */}
-
-          {/* Bulb image on the left side */}
-          {/* <img
-            src={Bulb}
-            alt="Bulb"
-            className="absolute top-[60%] left-[60px] w-16 z-20"
-          /> */}
-
-          {/* Coffee image on the right side */}
-          {/* <img
-            src={Coffee}
-            alt="Coffee"
-            className="absolute bottom-[70%] right-[60px] w-16 z-20"
-          /> */}
-
-          {/* Badge: Happy Clients */}
-          {/* <div className="absolute top-10 left-0 bg-white shadow-md px-4 py-2 rounded-xl flex items-center gap-2 z-20">
-            <FaHandshake className="text-[#f47621]" />
-            <span className="text-sm font-medium text-[#363636]">
-              300+ happy clients
-            </span>
-          </div> */}
-
-          {/* Badge: Sales Growth */}
-          {/* <div className="absolute bottom-10 right-0 bg-[#f47621] text-white shadow-md px-4 py-2 rounded-xl flex items-center gap-2 z-20">
-            <FaChartLine />
-            <span className="text-sm font-medium">
-              85% sales growth
-            </span>
-          </div> */}
+         
         </div>
 
       </div>
@@ -186,10 +142,7 @@ const Home = () => {
           </div>
 
           {/* Button */}
-          <button className="mt-6 inline-flex items-center gap-3 bg-[#f47621] hover:bg-[#f47621] text-white font-medium px-6 py-3 rounded-full transition">
-            Know more
-            <span className="text-white">➔</span>
-          </button>
+          <Button text="Know more"/>
         </div>
       </div>
     </section>
@@ -266,13 +219,9 @@ const Home = () => {
             allowFullScreen
           ></iframe>
         </div>
+<div className="mt-10">                <Button text="Explore More about"/>
+</div>
 
-        <button className="mt-10 lg:mt-30 flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full shadow-lg hover:bg-orange-600 transition">
-          Explore More about
-          <span className="bg-white text-[#f47621] h-8 w-8 flex items-center justify-center rounded-full">
-            ↗
-          </span>
-        </button>
       </div>
 
     </div>

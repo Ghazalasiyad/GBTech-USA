@@ -10,6 +10,7 @@ import AwardIcon from "../../assets/award.png";
 import JobOpenings from '../../Components/JobOpenings/JobSection';
 import Footer from "../../Components/Footer/Footer";
 import JobSection from '../../Components/JobOpenings/JobSection';
+import Button from '../../Components/Button/Button';
 
 
 const GetInvolved = () => {
@@ -35,13 +36,8 @@ const GetInvolved = () => {
               plant cold-pressed tacos poke beard tote bag. Heirloom echo park
               mlkshk tote bag selvage hot chicken authentic turmeric truffaut.
             </p>
-
-            <button className="mt-6 inline-flex items-center gap-3 bg-[#f47621] text-white px-6 py-2 rounded-full text-sm">
-              more details
-              <span className="w-6 h-6 flex items-center justify-center bg-white text-[#f47621] rounded-full text-xs">
-                ↗
-              </span>
-            </button>
+<div className='mt-8'>         <Button text="more details"/>
+</div>
           </div>
         </div>
       </section>
@@ -61,12 +57,7 @@ const GetInvolved = () => {
               plant cold-pressed tacos poke beard tote bag.
             </p>
 
-            <button className="flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full">
-              <span className="text-sm">more details</span>
-              <span className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#f47621]">
-                ↗
-              </span>
-            </button>
+           <Button text="more details"/>
           </div>
 
           <div className="flex justify-center lg:justify-end">
@@ -86,7 +77,7 @@ const GetInvolved = () => {
           {/* Left Card */}
           <div className="bg-white rounded-xl p-10 min-h-[600px] flex flex-col justify-between">
             <div>
-              <h2 className="text-4xl font-bold text-[#363636]">
+              <h2 className="text-4xl font-bold text-[#363636] mt-36">
                 Build Your Future.
                 <br />
                 Join <span className="text-black">GBTechive</span>
@@ -98,14 +89,10 @@ const GetInvolved = () => {
                 mlkshk tote bag selvage hot chicken authentic tumeric truffaut
                 hexagon try-hard chambray.
               </p>
+              <div className='mt-30'>              <Button text="contact us now"/>
+</div>
             </div>
 
-            <button className="inline-flex items-center gap-3 bg-[#f47621] text-white px-6 py-3 rounded-full w-fit">
-              Contact Us Now
-              <span className="bg-white text-[#f47621] rounded-full w-7 h-7 flex items-center justify-center">
-                →
-              </span>
-            </button>
           </div>
 
           {/* Right Card */}
