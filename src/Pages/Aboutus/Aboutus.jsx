@@ -31,10 +31,8 @@ const AboutUs = () => {
           </h4>
 
           <p className="text-white max-w-2xl leading-relaxed text-lg font-normal md:text-base mb-6">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra
-            air plant cold-pressed tacos poke beard tote bag. heirloom echo
-            park mlkshk tote bag selvage hot chicken authentic turmeric
-            truffaut hexagon try-hard chambray.
+            We provide cutting-edge solutions in marketing, UX/UI design, graphic design, website development, medical documentation, and billing services. 
+            With a passionate team of skilled professionals, we deliver more than just services — we drive growth.
           </p>
 
          <Button text="more details"/>

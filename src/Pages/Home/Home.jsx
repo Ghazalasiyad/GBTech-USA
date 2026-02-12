@@ -39,10 +39,8 @@ const Home = () => {
           </h1>
 
           <p className="mt-6 max-w-2xl text-[#3f3f3f] text-lg font-normal leading-relaxed">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            From innovative design to precise medical documentation, GBTechive offers expert-driven, 
+            tailored solutions for a growing network of satisfied clients across diverse industries who trust us.
           </p>
 
           {/* BUTTONS */}
@@ -103,10 +101,9 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-600 text-lg font-normal md:text-lg">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            We provide cutting-edge solutions in marketing, UX/UI design, graphic design, website development, medical 
+            documentation, and billing services.
+             With a passionate team of skilled professionals, we deliver more than just services — we drive growth.
           </p>
 
           {/* Features */}
@@ -173,9 +170,9 @@ const Home = () => {
         </h2>
 
         <p className="mt-4 text-[#363636] text-lg font-normal max-w-lg">
-          copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-          plant cold-pressed tacos poke beard tote bag. heirloom echo park
-          mlkshk tote bag selvage hot chicken authentic turmeric truffaut.
+          (We Don’t Just Deliver — We Transform)
+We combine creativity, technology, and strategy to deliver solutions that truly make a difference.
+
         </p>
 
         {/* FEATURES */}

@@ -55,10 +55,8 @@ const Portfolio = () => {
           </h2>
 
           <p className="text-[#363636] text-lg font-normal md:text-base leading-relaxed max-w-lg mb-10 ">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic turmeric truffaut
-            hexagon try-hard chambray.
+            Explore our success stories. We’re proud to showcase the results we’ve delivered across industries through impactful Software Projects, Web Development projects, 
+            Digital Marketing projects, and Medical billing and Documentation Projects.
           </p>
 
          <Button text="get in touch"/>

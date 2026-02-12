@@ -20,10 +20,8 @@ const MissionTimeline = () => {
           </h2>
 
           <p className="text-[#363636] text-lg font-normal leading-7 mb-10 max-w-md">
-            copper mug try-hard pitchfork pour-over freegan heirloom neutra
-            air plant cold-pressed tacos poke beard tote bag heirloom echo
-            park milkshk tote bag salvage hot chicken authentic turmeric
-            truffaut hexagon try-hard chambray.
+            At GBTechive, we empower individuals and organizations through ethical, innovative, and client-focused digital solutions—redefining the digital
+             experience to drive growth, enhance engagement, and create lasting impact across every sector we serve.
           </p>
 
           <Button text="Get started"/>

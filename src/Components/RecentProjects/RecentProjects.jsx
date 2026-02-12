@@ -15,7 +15,7 @@ const projects = {
   "UI/UX": {
     title: "Ibn Sina Foundation Website",
     description:
-      "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage.",
+      "Designed a custom Content Management System (CMS) for Ibn e Sina to manage healthcare content, staff records, patient updates, and internal documentation efficiently.",
     image: ProjectImg,
   },
   "Graphic Design": {
@@ -63,9 +63,8 @@ const RecentProjects = () => {
             <span className="text-orange-500">Recent Projects</span>
           </h2>
           <p className="mt-4 text-[#363636] text-lg font-normal md:text-base">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag heirloom echo park mlkshk
-            tote bag selvage
+          Explore GBTechive’s project portfolio—delivering impactful digital solutions
+           across education, governance, and enterprise in Gilgit-Baltistan and beyond.
           </p>
         </div>
 
