@@ -96,7 +96,7 @@ const AboutUs = () => {
   </div>
 </section>
 
-    <MissionTimeline/>
+    {/* <MissionTimeline/> */}
     <FaqSection/>
     <Footer/>
     </>

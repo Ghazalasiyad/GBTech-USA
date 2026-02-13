@@ -101,8 +101,8 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <button className="flex items-center gap-2 bg-[#f47621] text-white text-sm font-semibold px-5 py-2 rounded-full">
             Get in Touch
-            <span className="bg-white text-[#f47621] p-2 rounded-full">
-              <FaPhoneAlt size={12} />
+            <span className="bg-white text-[#363636] p-2 rounded-full">
+              <FaPhoneAlt size={14} />
             </span>
           </button>
         </div>
